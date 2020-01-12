@@ -1,0 +1,58 @@
+footer,
+.navbar-nav .dropdown-menu, .clients ul {
+    background-color: #9f9a9a !important;
+}
+.mainSlider .carousel-item{
+     background: linear-gradient(to bottom, #9f9a9a 45%, rgba(255, 255, 255, 0.8) 100%);
+}
+.navbar-fixed-top.scrolled {
+  background-color: #9f9a9a !important;
+  transition: background-color 200ms linear;
+}
+.carousel-inner .carousel-caption .caption h1{    color: #ec1c23;}
+.about .row h2,
+.services .container .row i,
+.teamWork .OurTeam h2,
+.teamWork .OurTeam .members h3,
+.progressSection h2,
+.progressSection button,
+.subscripe h3,
+.navbar .logo h1,
+.contact-us .contact button,
+.contact-us .contact h2,
+footer .footerp span,
+footer .news h6,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-brand,
+.navbar-nav .dropdown-menu .dropdown-item,
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand:focus,
+.carousel-caption .btn-default:hover,
+.navbar-dark .form-inline .btn-success,
+footer .footerp, .contact-us .contact h2 i, .themes-box h6, .clients ul li
+{
+    color: #ec1c23;
+
+}
+.about .row h2,
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{text-shadow: 1px 1px 30px #ec1c23;}
+.navbar-nav .dropdown-menu{border-top: solid 2px #ec1c23;}
+.services .container .row i:hover{text-shadow: 0px 0px 30px #ec1c23; }
+.progressSection button:hover{box-shadow: 0px 0px 20px #ec1c23;}
+.about .row h2{  text-shadow: 2px 3px 10px #ec1c23; }
+
+.navbar-dark .form-inline .btn-success:hover,
+.navbar-nav .dropdown-menu .dropdown-item:hover,
+.progressSection button:hover
+{
+  background-color: #ec1c23;
+}
+
+.navbar-dark .form-inline .btn-success,
+.navbar-dark .form-inline .btn-success:hover
+{
+       border-color: #ec1c23; 
+}
+   .services .even{background-color: #ca9b98}
+ .services .odd{background-color: #550600}

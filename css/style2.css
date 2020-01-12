@@ -1,0 +1,55 @@
+.mainSlider{
+    min-height: 600px;
+    padding: 0;
+    margin: 0;
+}
+.VedMedia video{
+    position: relative;
+    top: 108px;
+    left: 17px;
+    box-shadow: 8px 6px 15px #464444;
+    width: 624px;
+    border-radius: 5px; 
+}
+.bg-dark {
+    background-color: rgba(4, 5, 7, 0.56) !important;
+}
+.mainSlider .caption{
+    color: #343a40 !important;
+    position: relative;
+    left: 50%;
+    width: 40%;
+    top: -305px;
+    font-weight: bold;
+    text-align: center
+}
+.mainSlider .caption h3{
+font-size: 52px;
+font-family: fantasy;
+color: #0169fe;
+font-weight: bold;}
+.mainSlider .caption p{
+color: #fff;
+}
+.mainSlider .caption h4{
+    font-size: 52px;
+    font-family: fantasy;
+    color: #FFF;
+    font-weight: bold;
+}
+    .mainSlider .caption h4 span{
+  
+        color: #0169fe;
+       }
+       .mainSlider .caption .btn-default{
+        margin: 10px 0px;
+        width: 200px;
+        padding: 2%;
+        color: #0169fe;
+        font-weight: bold;
+        background: #91b5e9;
+       }
+       .overlay{
+           background-color: rgba(0, 0, 0, 0.8);
+           padding: 50px 0;
+       }
