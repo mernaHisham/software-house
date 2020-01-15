@@ -5,23 +5,36 @@
 }
 .VedMedia video{
     position: relative;
-    top: 108px;
-    left: 17px;
-    box-shadow: 8px 6px 15px #464444;
-    width: 624px;
+    top: 45px;
+    left: 25px;
+    box-shadow: 8px 6px 15px #17191b;
+    width: 90%;
     border-radius: 5px; 
 }
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .VedMedia video{
+        width: 70%; 
+        position: relative;
+        left: 13%;
+    }
+    .mainSlider .caption{
+        text-align: center;
+    }
+}  
+@media only screen and (min-width: 0px) and (max-width: 768px){
+    .VedMedia video{
+        width: 90%; 
+    }
+    .mainSlider .caption{
+        text-align: center;
+    }
+} 
 .bg-dark {
     background-color: rgba(4, 5, 7, 0.56) !important;
 }
 .mainSlider .caption{
     color: #343a40 !important;
-    position: relative;
-    left: 50%;
-    width: 40%;
-    top: -305px;
     font-weight: bold;
-    text-align: center
 }
 .mainSlider .caption h3{
 font-size: 52px;

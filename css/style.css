@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Arial', cursive; }
 .navbar-nav .nav-item {
     border-bottom: 2px solid rgba(0, 0, 0, 0);
     color: wheat !important;
+    margin: 0px 6px;
 }
 .navbar-nav .nav-item:hover{
     border-color: #0169fe;
@@ -55,7 +56,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Arial', cursive; }
     font-size: 25px;
     letter-spacing: 0.2em;
     font-weight: bold;
-    padding-left: 20px;
+    /*padding-left: 30%;*/
     /* color: white !important; */
 }
 .navbar-dark .form-inline .btn-success {
@@ -104,11 +105,18 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Arial', cursive; }
 }
 
 .navbar-nav {
-    margin: 0px auto;
+    margin-right: 5%;
 }
 .bg-dark{ background-color: rgba(44, 62, 80, 0) !important; }
 .mainSlider .carousel-caption{
     margin-bottom: 27px;
+}
+
+#navbardrop{
+    width: 100px;
+}
+#mainSlider-container{
+    min-height: 660px;
 }
 /* navbar ended */
 /* intro started */
@@ -137,6 +145,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Arial', cursive; }
 }
 .about .row h2{
     font-size: 50px;
+    text-align: center;
 }
 .about .row p{
         color: #6d5454;
@@ -355,8 +364,9 @@ footer .news p {
     max-width: 20%;
 }
 .navbar-toggler:not(:disabled):not(.disabled) {
-    margin-left: 270px;
-    margin-top: -44px;
+    /* margin-left: 270px; */
+    /* margin-top: -44px; */
+    max-width: 70px;
 }
 .mainSlider .carousel {
     display:  none;
@@ -783,7 +793,7 @@ transition: all 0.2s linear;
 }
 .relatedProds .product,
 .products .product{
-    margin: 17px 45px;
+    margin: 10px;
 }
 .products .add-prod{
     background: none;
