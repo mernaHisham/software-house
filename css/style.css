@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Arial', cursive; }
 }
 .navbar-nav .nav-item {
     border-bottom: 2px solid rgba(0, 0, 0, 0);
+    color: wheat !important;
 }
 .navbar-nav .nav-item:hover{
     border-color: #0169fe;
@@ -54,7 +55,9 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Arial', cursive; }
     font-size: 25px;
     letter-spacing: 0.2em;
     font-weight: bold;
-    }
+    padding-left: 20px;
+    /* color: white !important; */
+}
 .navbar-dark .form-inline .btn-success {
     background-color: rgba(205, 220, 57, 0);
 }
@@ -101,7 +104,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Arial', cursive; }
 }
 
 .navbar-nav {
-    padding-left: 371px;
+    margin: 0px auto;
 }
 .bg-dark{ background-color: rgba(44, 62, 80, 0) !important; }
 .mainSlider .carousel-caption{
