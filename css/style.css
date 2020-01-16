@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css?family=Lobster');*/
 
-body{ box-sizing: border-box;  }
+body{ box-sizing: border-box;overflow-x: hidden;  }
 *{
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -104,9 +104,11 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Arial', cursive; }
     transition: all 0.5s ease-in-out;
 }
 
-.navbar-nav {
+/*.navbar-nav {
     margin-right: 5%;
-}
+   padding-left: 371px;
+    margin: 0px auto;
+}*/
 .bg-dark{ background-color: rgba(44, 62, 80, 0) !important; }
 .mainSlider .carousel-caption{
     margin-bottom: 27px;
@@ -794,6 +796,8 @@ transition: all 0.2s linear;
 .relatedProds .product,
 .products .product{
     margin: 10px;
+    max-width: 300px;
+    padding: 0px;
 }
 .products .add-prod{
     background: none;

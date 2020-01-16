@@ -1,6 +1,6 @@
 $(document).ready(function(){
    //Nice Scroll code
-   $("body").niceScroll();
+   //$("body").niceScroll();
    
    $(function () {
   $(document).scroll(function () {
@@ -20,6 +20,5 @@ $(document).ready(function(){
     .eq(2).css("backgroundColor","#ec1c23")
    colorLi.click(function(){
       $("link[href*='theme']").attr("href",$(this).attr("data-value"));
-      //console.log();
       })
     })

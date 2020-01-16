@@ -13,12 +13,18 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 992px){
     .VedMedia video{
-        width: 70%; 
+       /* width: 70%; 
         position: relative;
-        left: 13%;
+        left: 13%;*/
+        width: 100%;
+        top: -48px;
+        left: 0px;
+        margin-bottom: 0px
     }
-    .mainSlider .caption{
+    .mainSlider .col-md-12.col-lg-6.my-5.py-5{
         text-align: center;
+        margin-top: 0px
+
     }
 }  
 @media only screen and (min-width: 0px) and (max-width: 768px){
