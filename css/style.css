@@ -799,6 +799,7 @@ transition: all 0.2s linear;
 .products .product{
     margin: 10px;
     max-width: 300px;
+    min-width: 300px;
     padding: 0px;
 }
 .products .add-prod{

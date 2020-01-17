@@ -36,7 +36,10 @@ footer .footerp,.contact-us .contact h2 i, .themes-box h6, .clients ul li
 }
 .carousel-inner .carousel-caption .caption h1{    color: #0169fe;}
 .about .row h2,
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{text-shadow: 1px 1px 30px #0169fe;}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
+  text-shadow: 1px 3px 10px #0169fe;
+    font-family: fantasy;
+}
 .navbar-nav .dropdown-menu{border-top: solid 2px #0169fe;}
 .services .container .row i:hover{text-shadow: 0px 0px 30px #0169fe; }
 .progressSection button:hover{box-shadow: 0px 0px 20px #0169fe;}
